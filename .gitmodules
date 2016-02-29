@@ -1,0 +1,3 @@
+[submodule "BlackBarLabs.Core"]
+	path = BlackBarLabs.Core
+	url = git@github.com:blackbarlabs/BlackBarLabs.Core.git
