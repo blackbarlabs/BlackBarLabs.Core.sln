@@ -50,7 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="IEnumerableAsyncTests.cs" />
+    <Compile Include="Async\Enumerable\EnumerableAsyncTest.cs" />
+    <Compile Include="Async\Enumerable\EnumeratorAsyncTest.cs" />
+    <Compile Include="Async\Enumerable\Generators.cs" />
+    <Compile Include="Async\Enumerable\IteratorAsyncTest.cs" />
+    <Compile Include="Async\ViewBizPersistenceTests.cs" />
+    <Compile Include="Async\IIterateAsyncTests.cs" />
+    <Compile Include="Async\IEnumerableAsyncTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBarLabs.Core.Tests", "..\BlackBarLabs.Core.Tests\BlackBarLabs.Core.Tests.csproj", "{B5992E8B-8DC1-4118-95EB-F476BABE2B01}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBarLabs.Core", "BlackBarLabs.Core\BlackBarLabs.Core.csproj", "{73088F1B-3ACA-476B-AA45-B7D6660F1C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBarLabs.Core.Tests", "BlackBarLabs.Core.Tests\BlackBarLabs.Core.Tests.csproj", "{B5992E8B-8DC1-4118-95EB-F476BABE2B01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5992E8B-8DC1-4118-95EB-F476BABE2B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5992E8B-8DC1-4118-95EB-F476BABE2B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5992E8B-8DC1-4118-95EB-F476BABE2B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5992E8B-8DC1-4118-95EB-F476BABE2B01}.Release|Any CPU.Build.0 = Release|Any CPU
 		{73088F1B-3ACA-476B-AA45-B7D6660F1C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73088F1B-3ACA-476B-AA45-B7D6660F1C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73088F1B-3ACA-476B-AA45-B7D6660F1C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73088F1B-3ACA-476B-AA45-B7D6660F1C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5992E8B-8DC1-4118-95EB-F476BABE2B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5992E8B-8DC1-4118-95EB-F476BABE2B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5992E8B-8DC1-4118-95EB-F476BABE2B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5992E8B-8DC1-4118-95EB-F476BABE2B01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
