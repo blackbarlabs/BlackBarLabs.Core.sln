@@ -104,7 +104,7 @@ namespace BlackBarLabs.Core.Tests
                 });
 
             int count = 0;
-            var culledItems = items.TaskAsync(50); // TakeAsync(50);
+            var culledItems = items.TakeAsync(50);
             await culledItems.ForAllAsync(
                 async (a, b, c) =>
                 {
