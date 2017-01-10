@@ -220,3 +220,6 @@ ModelManifest.xml
 # Mac Finder Files
 .DS_Store
 
+
+*.nupkg.bak
+

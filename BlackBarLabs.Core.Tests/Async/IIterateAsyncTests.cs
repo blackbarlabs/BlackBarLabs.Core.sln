@@ -133,7 +133,7 @@ namespace BlackBarLabs.Core.Tests
     public class IIterateAsyncTests
     {
         [TestMethod]
-        public async Task IterateAsyncTests()
+        public void IterateAsyncTests()
         {
             var items = EnumerableAsyncTest.YieldAsync(
                 async (yield) =>
@@ -156,7 +156,7 @@ namespace BlackBarLabs.Core.Tests
         }
 
         [TestMethod]
-        public async Task IterateAsyncGenericTests()
+        public void IterateAsyncGenericTests()
         {
             var items = EnumerableAsync.YieldAsync<TestDelegateAsync>(
                 async (yield) =>
